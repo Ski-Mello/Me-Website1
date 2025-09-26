@@ -6,6 +6,22 @@ body {
   font-family: 'Allura', cursive, Arial, sans-serif;
 }
 
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes glow {
+  0% { text-shadow: 0 0 5px #fff, 0 0 10px #00f; }
+  50% { text-shadow: 0 0 20px #fff, 0 0 30px #0ff; }
+  100% { text-shadow: 0 0 5px #fff, 0 0 10px #00f; }
+}
+
+.fade-glow {
+  animation: fadeIn 2s ease-in forwards,
+             glow 5s infinite alternate ;
+}
+
 header {
   background: rgba(0,0,0,0.60);
   color: #fff;
@@ -17,7 +33,7 @@ header {
   width: 100%;
   box-sizing: border-box;
   font-size: 400%;
-}
+}   
 
 main {
   background: rgba(0,0,0,0.85);
@@ -36,6 +52,7 @@ h1, h3, h4, h5 {
   margin-top: 0;
   margin-bottom: 18px;
   text-shadow: 2px 2px 8px #000a;
+
 }
 
 section, section > div {
@@ -109,4 +126,24 @@ footer div {
   box-sizing: border-box;
   width: 100%;
   margin: 0;
+}
+
+main h3 {
+    font-size: 250%;
+}
+
+main section h4 {
+    font-size: 235%;
+}
+
+main p {
+    font-size: 150%;
+}
+
+main section h5 {
+    font-size: 200%;
+}
+
+main sectipn p {
+    font-size: 200%;
 }
