@@ -1,3 +1,62 @@
+body {
+  background: url('https://images.pexels.com/photos/370799/pexels-photo-370799.jpeg?_gl=1*j27zd9*_ga*MjExNTM0MTgzNS4xNzU4OTAzNzc5*_ga_8JE65Q40S6*czE3NTg5MTcwMDUkbzMkZzEkdDE3NTg5MTcwMzAkajM1JGwwJGgw') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Allura', cursive, Arial, sans-serif;
+}
+
+header {
+  background: rgba(0,0,0,0.60);
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 400%;
+}
+
+main {
+  background: rgba(0,0,0,0.85);
+  color: #fff;
+  max-width: 900px;
+  margin: 36px auto 0 auto;
+  padding: 36px 32px;
+  border-radius: 0;
+  box-sizing: border-box;
+  box-shadow: 0 4px 24px #0005;
+}
+
+h1, h3, h4, h5 {
+  color: #fff;
+  font-family: 'Allura', cursive, Arial, sans-serif;
+  margin-top: 0;
+  margin-bottom: 18px;
+  text-shadow: 2px 2px 8px #000a;
+}
+
+section, section > div {
+  background: rgba(0,0,0,0.7);
+  border-radius: 0;
+  margin-bottom: 24px;
+  padding: 24px 18px;
+  box-sizing: border-box;
+}
+
+section > div {
+  margin-bottom: 1px; 
+}
+
+p {
+  color: #fff;
+  font-size: 1.1em;
+  line-height: 1.7;
+  margin-bottom: 18px;
+}
+
 nav a:hover {
   background: rgba(0, 0, 0, 0.7);
   color: #fff;
