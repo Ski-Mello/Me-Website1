@@ -1,6 +1,6 @@
 body {
   text-align: left;
-  background-image: url('https://getwallpapers.com/wallpaper/full/6/4/c/1133787-vertical-1920x1080-nature-wallpaper-1920x1080-phone.jpg'); /* Replace with your image path */
+  background-image: url('https://wallpapercave.com/wp/wp10678292.jpg'); /* Replace with your image path */
   background-size: cover;                  /* Scales image to cover entire screen */
   background-repeat: no-repeat;            /* Prevents tiling */
   background-position: center center;      /* Centers the image */
@@ -37,10 +37,33 @@ main {
   font-size: 300%;
   color: white;
   text-align: left;
-  margin-top: 0px;
+  margin-top: -10Spx;
   margin-left: 30px;
 }
 
+}
+
+a {
+  font-family: 'Cursive', sans-serif;
+  font-size: 1.5rem;
+  color: #ffffff;              /* white text */
+  text-decoration: none;       /* removes underline */
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1); /* soft glow */
+  transition: all 0.3s ease;
+  display: inline-block;
+  margin: 10px;
+}
+
+a:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
+  color: #ffdd57; /* pastel yellow or any accent */
+}
+
+a {
+  box-shadow: 0 0 10px rgba(255,255,255,0.2);
 }
 
 button {
