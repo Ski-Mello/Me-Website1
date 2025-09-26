@@ -1,0 +1,53 @@
+nav a:hover {
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  border-color: rgba(0,0,0,0.7);
+  text-shadow: 0 0 12px #fff, 0 0 24px #fff; 
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: 100;
+}
+
+footer a {
+  display: inline;
+  color: #fff;
+  font-family: 'Allura', cursive;
+  font-size: 120%;
+  text-decoration: none;
+  background: none;
+  border: none;
+  padding: 0 10px;
+  margin: 0 4px;
+  box-shadow: none;
+  transition: 
+    color 0.2s,
+    text-shadow 0.2s,
+    text-decoration 0.2s;
+}
+
+footer a:hover {
+  color: #ffe600; 
+  text-decoration: underline;
+  text-shadow: 0 0 8px #ffe600, 0 0 16px #fff200;
+  background: none;
+  border: none;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background: rgba(0,0,0,0.95);
+  padding: 10px 0 18px 0;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+}
