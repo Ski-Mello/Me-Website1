@@ -1,0 +1,55 @@
+body {
+  text-align: left;
+  background-image: url('https://getwallpapers.com/wallpaper/full/6/4/c/1133787-vertical-1920x1080-nature-wallpaper-1920x1080-phone.jpg'); /* Replace with your image path */
+  background-size: cover;                  /* Scales image to cover entire screen */
+  background-repeat: no-repeat;            /* Prevents tiling */
+  background-position: center center;      /* Centers the image */
+  height: 100vh;                           /* Ensures full viewport height */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+header {
+  font-family: 'Allura', cursive;
+  font-size: 150%;
+  background-size: 20%;
+  color: white;
+  text-align: justify;
+  margin-left: 30px;
+}
+
+nav a {
+  font-family: 'Allura', cursive;
+  color: white;
+  font-size: 150%;
+  text-decoration: none;
+  text-align: left;
+  margin-left: 30px;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  background: #0077ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #0055aa;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
