@@ -1,5 +1,5 @@
 body {
-  background: url('file:///C:/Users/DELL/Downloads/pexels-enginakyurt-1435752.jpg') no-repeat center center fixed;
+  background: url('https://images.pexels.com/photos/82256/pexels-photo-82256.jpeg') no-repeat center center fixed;
   background-size: cover;
   min-height: 100vh;
   margin: 0;
@@ -13,10 +13,10 @@ header h1 {
   font-family: 'Allura', cursive;
   text-align: center;
   margin: 0;
-  background: rgba(0, 0, 0, 1);
+  background: rgba(0, 0, 0, 0.85);
   width: 100%;
   box-sizing: border-box;
-  padding: 40px 0; /* Increased vertical padding for taller box */
+  padding: 40px 0; 
   line-height: 1.2;
   border-radius: 0;
   display: block;
@@ -26,40 +26,41 @@ main h1 {
   color: #fff;
   font-size: 350%;
   font-family: 'Allura', cursive;
-  text-align: center;
+  text-align: left;
   margin: 0;
   text-shadow: 2px 2px 8px #000a;
   background: rgba(0, 0, 0, 0.8);
   display: block;
-  padding: 36px 0; /* Increased vertical padding for taller box */
+  padding: 36px 0;
   line-height: 1.2;
   border-radius: 0;
 }
 
 main h3 {
   color: #fff;
-  font-size: 180%;
+  font-size: 200%;
   font-family: 'Allura', cursive;
-  text-align: center;
+  text-align: left;
   margin: 0;
   text-shadow: 1px 1px 6px #000a;
   background: rgba(0, 0, 0, 0.6);
   display: block;
-  padding: 32px 0; /* Increased vertical padding for taller box */
+  padding: 32px 0; 
   line-height: 1.2;
   border-radius: 0;
 }
 
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start; /* Align links to the left */
   gap: 24px;
-  margin: 0; /* Remove margin above/below nav */
-  padding: 28px 0; /* Increased vertical padding for taller nav box */
+  margin: 0; 
+  padding: 28px 0; 
   background: rgba(0, 0, 0, 0.4);
   border-radius: 0;
   width: 100%;
   box-sizing: border-box;
+  padding-left: 0; /* Remove any default left padding */
 }
 
 nav a {
@@ -68,19 +69,20 @@ nav a {
   font-family: 'Allura', cursive;
   font-size: 180%;
   text-decoration: none;
-  background: rgba(255, 249, 196, 0.7); /* Translucent pastel yellow */
+  background: rgba(255, 255, 255, 0.7); /* Translucent white */
   border-radius: 12px;
   padding: 10px 28px;
-  margin: 12px 8px; /* Small vertical margin for spacing inside nav */
+  margin: 12px 8px; 
   box-shadow: 0 2px 8px #0002;
   transition: background 0.2s, color 0.2s, border-color 0.2s;
   border: 2px solid #fffde7;
+  text-align: left;
 }
 
 nav a:hover {
-  background: #ff3ebf;
+  background: rgba(0, 0, 0, 0.7); /* Translucent black on hover */
   color: #fff;
-  border-color: #ff3ebf;
+  border-color: rgba(0,0,0,0.7);
 }
 
 
