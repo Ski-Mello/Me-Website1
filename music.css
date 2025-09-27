@@ -81,7 +81,7 @@ main section ol {
 }
 
 main nav span {
-    font-size: 2000%;
+    font-size: 200%;
 }
 
 header {
@@ -135,4 +135,14 @@ h1, h3, h4, h5 {
   text-decoration: underline;
 }
 
+ul li a {
+  color: white;
+  font-size: 1.5rem; /* You can bump this up to 1.5rem or more if needed */
+  text-decoration: underline;
+  transition: all 0.3s ease;
+}
 
+ul li a:hover {
+  color: white;
+  text-shadow: 0 0 10px #ffb47d, 0 0 20px #ffb47d;
+}
