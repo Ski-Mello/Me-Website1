@@ -26,7 +26,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #ffe600; 
+  color: #3ce97e; 
   text-decoration: underline;
   text-shadow: 0 0 8px #ffe600, 0 0 16px #fff200;
   background: none;
@@ -176,3 +176,4 @@ main, section, .joined-box {
 h1, h2, h4, h5, p, ol, ul {
   animation: textFade 1.5s ease-out forwards;
 }
+

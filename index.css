@@ -6,7 +6,6 @@ body {
   font-family: 'Allura', cursive, Arial, sans-serif;
 }
 
-/* Animation keyframes */
 @keyframes slideDownFade {
   0% {
     opacity: 0;
@@ -65,7 +64,7 @@ main h3 {
   line-height: 1.2;
   border-radius: 0;
   opacity: 0;
-  animation: slideDownFade 0.7s 0.9s forwards;
+  animation: slideDownFade 0.7s 0.9s forwards;  
 }
 
 nav {
@@ -138,7 +137,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #ffe600; 
+  color: #3ce97e; 
   text-decoration: underline;
   text-shadow: 0 0 8px #ffe600, 0 0 16px #fff200;
   background: none;
