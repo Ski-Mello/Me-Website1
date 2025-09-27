@@ -1,11 +1,3 @@
-body {
-  background: url('https://wallpapers.com/images/hd/winter-tank-advance-war-thunder-f2xlf9684eq2f9t0.jpg') no-repeat center center fixed;
-  background-size: cover;
-  min-height: 100vh;
-  margin: 0;
-  font-family: 'Allura', cursive, Arial, sans-serif;
-}
-
 footer {
   position: fixed;
   left: 0;
@@ -51,4 +43,136 @@ footer div {
   box-sizing: border-box;
   width: 100%;
   margin: 0;
+}
+
+body {
+    color: black;
+}
+
+main h3 {
+    font-size: 250%;
+}
+
+main section h4 {
+    font-size: 235%;
+}
+
+main p {
+    font-size: 150%;
+}
+
+main section h5 {
+    font-size: 200%;
+}
+
+main p {
+    font-size: 200%;
+}
+
+main section ol {
+    font-size: 150%;
+}
+
+header {
+  background: rgba(0,0,0,0.60);
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 400%;
+}   
+
+main {
+  background: rgba(255,255,255,0.5);
+  color: #fff;
+  max-width: 900px;
+  margin: 36px auto 0 auto;
+  padding: 36px 32px;
+  border-radius: 0;
+  box-sizing: border-box;
+  box-shadow: 0 4px 24px #0005;
+}
+
+main section h3 {
+  background: rgba(255,255,153,0.7);
+  color: #000;
+  font-family: 'Allura', cursive, Arial, sans-serif;
+  margin-top: 0;
+  margin-bottom: 18px;
+  text-shadow: 2px 2px 8px #000a;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+
+}
+
+
+.joined-box {
+  background: rgba(153,255,153,0.7);
+  color: #000;
+  font-family: 'Allura', cursive, Arial, sans-serif;
+  padding: 30px;
+  text-shadow: 2px 2px 8px #000a;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+main section h5 {
+  background: rgba(255, 182, 193,0.7);
+  color: #000;
+  font-family: 'Allura', cursive, Arial, sans-serif;
+  margin-top: 0;
+  margin-bottom: 18px;
+  text-shadow: 2px 2px 8px #000a;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+
+}
+
+@keyframes pageFadeGlow {
+  0% {
+    opacity: 0;
+    box-shadow: 0 0 0px #000;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  50% {
+    opacity: 0.5;
+    box-shadow: 0 0 20px #00f;
+    background-color: rgba(0, 0, 64, 0.6);
+  }
+  100% {
+    opacity: 1;
+    box-shadow: 0 0 40px #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+body {
+  animation: pageFadeGlow 2.5s ease-out forwards;
+  font-family: 'Allura', cursive, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: url('https://wallpapers.com/images/hd/winter-tank-advance-war-thunder-f2xlf9684eq2f9t0.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+main, section, .joined-box {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+@keyframes textFade {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+h1, h2, h4, h5, p, ol, ul {
+  animation: textFade 1.5s ease-out forwards;
 }
