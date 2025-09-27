@@ -72,8 +72,16 @@ main section h5 {
     font-size: 200%;
 }
 
-main sectipn p {
+main p {
     font-size: 200%;
+}
+
+main section ol {
+    font-size: 150%;
+}
+
+main nav span {
+    font-size: 2000%;
 }
 
 header {
@@ -109,56 +117,22 @@ h1, h3, h4, h5 {
 
 }
 
-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  background: rgba(0, 0, 0, 0.85);
-  padding: 12px 0;
-  margin: 24px 0;
-  box-shadow: 0 2px 12px #0005;
-  z-index: 99;
-  position: relative;
-}
-
-nav a {
+.translucent-button {
+  background-color: rgba(255, 255, 255, 0.2); 
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
   color: #fff;
-  font-family: 'Allura', cursive;
-  font-size: 120%;
-  text-decoration: none;
-  padding: 0 10px;
-  transition: color 0.2s, text-shadow 0.2s;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-nav a:hover {
-  color: #ffe600;
-  text-shadow: 0 0 8px #ffe600, 0 0 16px #fff200;
+.translucent-button:hover {
+  background-color: rgba(0, 0, 0, 0.8); 
+  color: #ff69b4; 
+  text-shadow: 0 0 8px #ff69b4, 0 0 12px #ff69b4; 
+  text-decoration: underline;
 }
 
-nav div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 12px;
-}
 
-nav {
-  overflow-x: auto;
-  flex-wrap: wrap;
-}
-
-nav .nav-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  padding: 12px;
-}
-nav {
-  position: relative;
-  z-index: 101;
-  margin-bottom: 72px; /* Push it above the footer */
-}
